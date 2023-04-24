@@ -1,0 +1,27 @@
+Model Name: Gradient Boosting Classifier
+
+Features:
+- time
+- price
+- release year
+- release month
+- has verb
+- has noun
+- has adjective
+- has date
+
+Hyperparameters:
+- Max depth: 7
+- Learning Rate: 0.01
+- Minimum Samples Split: 10
+- Number of estimators: 200
+
+
+Performance Metrics:
+- Accuracy: 0.56
+- Precision: 0.57
+- Recall: 0.90
+- F1 Score: 0.69
+- Confusion Matrix:
+[[2258  264]
+ [1720  280]]
